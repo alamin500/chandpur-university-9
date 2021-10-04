@@ -5,12 +5,13 @@
   font-weight: 500;
   color: rgb(218, 214, 214);
   cursor: pointer;
-  padding: 5px;
+  margin-top: 15px;
   text-decoration: none;
 }
 .items:hover {
-  color: rgb(221, 5, 5);
+  color: blue;
 }
 .site-name {
   font-size: 40px;
+  margin-left: 15px;
 }

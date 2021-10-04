@@ -1,17 +1,16 @@
 import React from "react";
 import "./Footer.css";
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookSquare,
-  faInstagramSquare,
-  faTwitterSquare,
+  faFacebookMessenger,
+  faInstagram,
+  faTwitter,
   faYoutube,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  faCoffee,
-  faPhoneVolume,
-  faMapMarkedAlt,
+  faPhoneSquare,
+  faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
@@ -23,30 +22,30 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="left-container text-start">
                 <h1>Chandpur University</h1>
+                <p className="mt-4 ">
+                  <small>
+                  An important idea in the definition of a university is the notion of academic freedom. The first documentary evidence of this comes from early in the life of the University of Bologna.
+                  </small>
+                </p>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faInstagramSquare} />
+                    <FontAwesomeIcon icon={faInstagram} />
                   </div>
                   <div className="icon">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
+                    <FontAwesomeIcon icon={faTwitter} />
                   </div>
                   <div className="icon">
                     <FontAwesomeIcon icon={faYoutube} />
                   </div>
                   <div className="icon">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
+                    <FontAwesomeIcon icon={faFacebookMessenger} />
+                  </div>
+                  <div className="icon">
+                    <FontAwesomeIcon icon={faLinkedin} />
                   </div>
                 </div>
-                <p className="mt-4 ">
-                  <small>
-                    *These statements have not been evaluated by the Food and
-                    Drug Administration. These products are not intended to
-                    diagnose.
-                  </small>
-                </p>
-
-                <p className="mt-5">
-                  <small>Zemez © . All rights reserved.</small>
+                <p className="mt-2">
+                  <small>Colac © . All rights reserved.</small>
                 </p>
               </div>
             </div>
@@ -74,28 +73,32 @@ const Footer = () => {
             </div>
             <div className="col-md-4">
               <div className="right-footer-container">
-                <h3>Sign up for the newsletter</h3>
-                <input
-                  className="footer-input"
-                  type="text"
-                  placeholder="Enter Email"
-                />
-                <div className="phone d-flex align-items-center justify-content-center mt-4">
-                  <div className="foter-phone-icon">
-                    <FontAwesomeIcon icon={faPhoneVolume} />
+                <h3>Subscribe</h3>
+                <div className="d-flex">
+                <div className="input-group  mb-3">
+             <input type="text" className="p-2 form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1"/>
+                </div>
+              <div>
+              <button type="button" className="btn btn-primary p-2">Send</button>
+              </div>
+              </div>
+                <div className="phone d-flex align-items-center justify-content-center">
+                  <div className="footer-phone-icon">
+                    <FontAwesomeIcon icon={faPhoneSquare} />
                   </div>
                   <div>
-                    <h5>+1 8 800 555 35 35</h5>
+                    <h5> 01763647880</h5>
                   </div>
                 </div>
                 <div className="map d-flex align-items-center justify-content-center">
-                  <div className="foter-phone-icon">
-                    <FontAwesomeIcon icon={faMapMarkedAlt} />
+                  <div className="footer-phone-icon">
+                    <FontAwesomeIcon icon={faMapMarkerAlt} />
                   </div>
                   <div>
                     <p>
-                      160 Broadway, New York, NY 10038,
-                      <br /> 102 1st Avenue, New York, NY 100
+                      <br />
+                      Sadar, Chandpur
+                      <br /> Chittagong, Bangladesh
                     </p>
                   </div>
                 </div>

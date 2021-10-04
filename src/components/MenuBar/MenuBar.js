@@ -1,12 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./MenuBar.css";
-import logo from "../..//images/logo/baller-logo-3.png";
+import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { userContext } from "./../../App";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MenuBar = () => {
-  const [user, setUser] = useContext(userContext);
-  console.log(user);
   return (
     <div className="MenuBar-container">
       <div className="container">
@@ -14,9 +12,11 @@ const MenuBar = () => {
           <div className="col-md-12">
             <div className="menu-container navbar navbar-dark bg-dark">
                 <h1 to="" className="items m-0">
-                  <li className=" site-name">Chandpur University</li>
+                <h1 to="/home">
+                  <li className=" site-name"> <FontAwesomeIcon icon={faSchool} /> Chandpur University</li>
+                  </h1>
                 </h1>
-              <ul className="d-flex align-items-end ms-auto justify-content-end">
+               <ul className="d-flex align-items-end ms-auto justify-content-end">
                 <Link to="/home" className="items">
                   <li>Home</li>
                 </Link>

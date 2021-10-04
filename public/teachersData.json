@@ -70,14 +70,5 @@
     "email": "kaiyum345@gmail.com",
     "salary": 26000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfJ7-8Sj-uyqWw0t87AyCXVsipQqHR1PY0Jw&usqp=CAU"
-  },
-  {
-    "key": 9,
-    "name": "Shamim",
-    "jobTitleName": "Salesman",
-    "adress": "Rangpur",
-    "email": "shamin546@gmail.com",
-    "salary": 28000,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtUCzIZ_RV5EwTMuBJSonAYJ5al0E8ZfZv-A&usqp=CAU"
   }
 ]

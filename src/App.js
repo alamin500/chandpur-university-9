@@ -2,8 +2,7 @@ import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home/Home";
 import React, { createContext, useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Details from "./components/Details/Details";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Error from "./components/Error/Error";
 import Teachers from "./components/Teachers/Teachers";
 import MenuBar from "./components/MenuBar/MenuBar";
@@ -38,11 +37,7 @@ function App() {
             <Route path="/teachers">
               <Teachers></Teachers>
             </Route>
-            
-            <Route path="/details/:teamId">
-              <Details></Details>
-            </Route>
-            <Route path="/*">
+            <Route path="*">
               <Error></Error>
             </Route>
           </Switch>

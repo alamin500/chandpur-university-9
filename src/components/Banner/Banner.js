@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MenuBar from "../MenuBar/MenuBar";
 import "./Banner.css";
 
 const Banner = () => {
@@ -17,7 +16,6 @@ const Banner = () => {
             </p>
             <Link to="/courses"><button className="mt-3 about-btn">Our Courses</button></Link>
           </div>
-         
         </div>
       </div>
     </div>
