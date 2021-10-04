@@ -1,0 +1,10 @@
+li {
+  text-align: left;
+}
+p,
+h3 {
+  text-align: left;
+}
+.about-container {
+  margin: 120px;
+}

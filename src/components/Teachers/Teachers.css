@@ -1,0 +1,84 @@
+.teacher {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #5da8e2;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+h6 {
+  color: rgb(233, 155, 12);
+}
+h5 {
+  margin-bottom: 2px;
+}
+.teacher-body img {
+  margin-bottom: 35px;
+}
+
+/* more  */
+
+body {
+  text-align: center;
+  padding: 30px;
+  background: #f8f4f2;
+  font-family: Arial;
+}
+
+.a-box {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.img-container {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
+}
+
+.img-container img {
+  transform: skew(0deg, -13deg);
+  height: 250px;
+  width: 350px;
+  margin: -35px 0px 0px -70px;
+
+  padding: 15px;
+}
+
+.inner-skew {
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+  transform: skew(0deg, 13deg);
+  font-size: 0px;
+  margin: 30px 0px 0px 0px;
+  height: 250px;
+  width: 200px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+  height: 270px;
+}
+p,
+h3 {
+  text-align: center;
+}

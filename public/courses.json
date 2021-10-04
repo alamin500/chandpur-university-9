@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "subject": "Accounting",
+      "description": "Most people will loathe the mere suggestion (myself included) but if you plan to have a job, that means you have plans to make money. Moreover, if you plan to make money that means you will have.",
+      "price": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQzNwtEh35A75T_ntFx_HsOw_fJL0nlv4jQ&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "subject": "Art/Design",
+      "description": "Perhaps you’re not the world’s most outwardly creative individual. Nevertheless, that doesn’t mean you cannot appreciate and cultivate an understanding for the arts. Nor should it stop you from!",
+      "price": 55,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjrZpmW4RL4xhRSTHCaHy6Dhsa0CyCQHzFkQ&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "subject": "Business",
+      "description": "Whether you plan on starting your own business, working for a large company or a small office – business is everywhere when it comes to the work environment. Though you may not be managing the business.",
+      "price": 75,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScylxBh7UDBXYy9obd5KCOouDnV3aks7OFmg&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "subject": "Communication/Speech",
+      "description": "Whether speaking to one or one hundred people, it’s important to learn how to articulate your message clearly. In these courses, you’ll learn to get your point across through understanding your audience",
+      "price": 60,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7BvaYsjXKFHrr0MBuXvvbqdpYytkRX8y-g&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "subject": "History",
+      "description": "Our past influences such a large part of our future and understanding these historic events can help propel future discoveries. While there is far too much history to learn in one course.",
+      "price": 50,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRi6lB0XjGjOq1zGlZTacE4ZBiOviWdQKmA&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "subject": "Journalism/Writing",
+      "description": "No matter what field you choose to go into, strong writing skills will not only be beneficial, but essential to your success as well. They’ll help you to communicate with future employers.",
+      "price": 48,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPAJhfzvbRVkCsg1BnhEKxMUKLtWkG9QHeQ&usqp=CAU"
+    },
+    {
+      "id": 7,
+      "subject": "Physical Education",
+      "description": "Great as an elective, any course that keeps you active is always a great idea. Whether you decide to take a course in mindfulness or the Art of Walking, they may help you discover new interests.",
+      "price": 82,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8uKTpRuN8jk9qLI45TyHFhEHxSn8QKCC_A&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "subject": "Political Science",
+      "description": "The American government is confusing and, assuming you’d like to become an informed citizen when you vote, this is a good option to do so. Within these courses, you can learn about how elections really work.",
+      "price": 72,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLMLxd9hvhFS-8RaKW_apZa5TCNNvcASUSfA&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "subject": "Sciences",
+      "description": "Science is all around us! Learning about scientific subjects will further your discovery about the world in which you live. You can choose from such an array of topics – pick one that interests you and explore!",
+      "price": 35,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1sJGgFglj-NyduKlRW4XFA5kTFhDIlX4T_w&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "subject": "Statistics",
+      "description": "Involved in so many of our business and financial decisions, statistics often seem to make the world go round. A basic understanding of how statistics are calculated is integral to making the very decisions based on them.",
+      "price": 85,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe5somXyS5ysHxnSaZ5ybe1iKFdWMXEN1qQA&usqp=CAU"
+    },
+    {
+      "id": 11,
+      "subject": "Computer Science",
+      "description": "It’s no secret that basic computer skills are now a must within pretty much every career. Give it a few more years and you can likely add basic HTML coding and editing webpages to that requirement as well.",
+      "price": 48,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIk9dtwwhgRDvOZfW5246Ftg-rUeN2b1v8_A&usqp=CAU"
+    }
+  ]
