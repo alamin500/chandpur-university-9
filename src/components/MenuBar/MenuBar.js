@@ -11,12 +11,16 @@ const MenuBar = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="menu-container navbar navbar-dark bg-dark">
-                <h1 to="" className="items m-0">
-                <h1 to="/home">
-                  <li className=" site-name"> <FontAwesomeIcon icon={faSchool} /> Chandpur University</li>
+              <h1 to="" className="items m-0">
+                <Link to="/home" className="title">
+                  <h1>
+                    <li className=" site-name">
+                      <FontAwesomeIcon icon={faSchool} /> Chandpur University
+                    </li>
                   </h1>
-                </h1>
-               <ul className="d-flex align-items-end ms-auto justify-content-end">
+                </Link>
+              </h1>
+              <ul className="d-flex align-items-end ms-auto justify-content-end">
                 <Link to="/home" className="items">
                   <li>Home</li>
                 </Link>
