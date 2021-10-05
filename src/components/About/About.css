@@ -14,7 +14,7 @@ h3 {
   text-align: center;
 }
 .about-banner {
-  background-image: url("https://media.istockphoto.com/photos/graduates-receive-a-certificate-at-the-university-picture-id1282130204?k=20&m=1282130204&s=612x612&w=0&h=GOAO9mA10miKOYbPs_BO_a_QUVJAU4X7x9ON7sgWz2U="),
+  background-image: url("../../images/cap.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 400px;
   width: 100%;
