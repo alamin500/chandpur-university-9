@@ -16,7 +16,7 @@
     {
       "id": 3,
       "subject": "Business",
-      "description": "Whether you plan on starting your own business, working for a large company or a small office – business is everywhere when it comes to the work environment. Though you may not be managing the business.",
+      "description": "Whether you plan on starting your own business, working for a large company or a small office – business is everywhere when it comes to the work environment. Though you may not be manage.",
       "price": 75,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScylxBh7UDBXYy9obd5KCOouDnV3aks7OFmg&usqp=CAU"
     },
@@ -30,7 +30,7 @@
     {
       "id": 5,
       "subject": "History",
-      "description": "Our past influences such a large part of our future and understanding these historic events can help propel future discoveries. While there is far too much history to learn in one course.",
+      "description": "Our past influences such a large part of our future and understanding these historic events can help propel future discoveries. While there is far too much history to learn.",
       "price": 50,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRi6lB0XjGjOq1zGlZTacE4ZBiOviWdQKmA&usqp=CAU"
     },
@@ -65,7 +65,7 @@
     {
       "id": 10,
       "subject": "Statistics",
-      "description": "Involved in so many of our business and financial decisions, statistics often seem to make the world go round. A basic understanding of how statistics are calculated is integral to making the very decisions based on them.",
+      "description": "Involved in so many of our business and financial decisions, statistics often seem to make the world go round. A basic understanding of how statistics are calculated is integral to making the very decisions based.",
       "price": 85,
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe5somXyS5ysHxnSaZ5ybe1iKFdWMXEN1qQA&usqp=CAU"
     },

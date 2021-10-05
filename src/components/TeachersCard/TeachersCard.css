@@ -27,7 +27,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .img-container {
   width: 300px;
@@ -52,6 +52,9 @@ body {
   margin: 30px 0px 0px 0px;
   height: 250px;
   width: 200px;
+}
+.inner-skew img:hover {
+  transform: scale(1);
 }
 .text-container {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);

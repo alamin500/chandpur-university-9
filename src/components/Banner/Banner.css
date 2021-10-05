@@ -3,7 +3,6 @@
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 780px;
   width: 100%;
-  /* border: 1px solid red; */
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,6 +17,9 @@
   background-color: blue;
   outline: none;
   border: none;
-  padding: 17px 34px;
+  padding: 17px 30px;
   color: white;
+}
+.title:hover {
+  transform: scale(1.1);
 }

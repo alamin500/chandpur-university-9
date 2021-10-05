@@ -12,9 +12,12 @@ const Banner = () => {
               FIND THE RIGHT PATH <br /> FOR YOU.
             </h1>
             <p className="text-white text-center mt-3">
-             Meet university and cultural institutions, who'll share their experience.
+              Meet university and cultural institutions, who'll share their
+              experience.
             </p>
-            <Link to="/courses"><button className="mt-3 about-btn">Our Courses</button></Link>
+            <Link to="/courses">
+              <button className="mt-3 about-btn btn">Our Courses</button>
+            </Link>
           </div>
         </div>
       </div>

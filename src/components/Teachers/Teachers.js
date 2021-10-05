@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import TeachersCard from "../TeachersCard/TeachersCard";
 import "./Teachers.css";
 
-const Teachers = () => {
+const Teachers = (props) => {
+  const { home = false } = props;
   const [teachers, setTeachers] = useState([]);
   useEffect(() => {
     fetch("/teachersData.json")
@@ -11,35 +13,25 @@ const Teachers = () => {
 
   return (
     <div className="">
-    <div className="container container-fluid">
-    <h1 className="experience">Our Experienced Teachers</h1>
-      <div className="teacher">
-          {
-              teachers.map((teacher, i)=>(
+      <div className="container container-fluid">
+        <h1 className="experience">Our Experienced Teachers</h1>
+        <div className="teacher">
+          {teachers.map((teacher, i) =>
+            home ? (
+              i < 4 && (
                 <div key={i}>
-                <div className="a-box ">
-                <div className="img-container">
-                <div className="img-inner">
-                <div className="inner-skew">
-               <img className="" src={teacher.img}/>
-           </div>
-         </div>
-     </div>
-     <div className="text-container">
-          <h3 className="h3-name">{teacher.name}</h3>
-           <h5>Adress: <strong>{teacher.adress}</strong></h5>
-           <h6>Salary: <strong>${teacher.salary}</strong></h6>
-           <p>E-mail: <strong>{teacher.email}</strong></p>
-        <div>
+                  <TeachersCard teacher={teacher} />
+                </div>
+              )
+            ) : (
+              <div key={i}>
+                <TeachersCard teacher={teacher} />
+              </div>
+            )
+          )}
+        </div>
       </div>
     </div>
-   </div> 
-   </div> 
-      )
-        )}
-      </div>
-    </div>
-  </div>
   );
 };
 
