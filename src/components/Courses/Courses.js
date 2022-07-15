@@ -12,7 +12,7 @@ const Courses = (props) => {
   }, []);
   return (
     <div>
-      <div className="">
+      <div className="container">
         <h1 className="h1-course">Our Courses</h1>
         <div className="course">
           {courses.map((course, i) =>
